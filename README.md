@@ -9,16 +9,16 @@
 ![](./readmeImages/3.png)
 4、依次填写以下参数
 ![](./readmeImages/4.png)
-|   参数名   |   值   | 是否必须 |          含义          |
-| :--------: | :----: | :------: | :--------------------: |
-|  username  | string |    是    |         用户名         |
-|  password  | string |    是    |          密码          |
-|   corpid   | string |    否    |       企业微信ID       |
-| corpsecret | string |    否    | 企业微信应用的凭证密钥 |
-|  agentid   | string |    否    |    企业微信应用的ID    |
+|   参数名           |   值   | 是否必须 |          含义          |
+| :----------------: | :----: | :------: | :--------------------: |
+|  username          | string |    是    |         用户名         |
+|  password          | string |    是    |          密码          |
+|   sender           | string |    是    |       QQ邮箱发送者     |
+| sender\_password   | string |    是    |       QQ邮箱授权的口令 |
+|  receiver          | string |    是    |       接收者邮箱       |
 
 5、启用Action
 ![](./readmeImages/5.png)
 ![](./readmeImages/5.1.png)
 ## 其它说明
-暂时能用就行，只支持企业微信应用推送消息，如果有人用我就继续加其他的推送
+目前只支持QQ邮箱推送消息，可以自定义其他邮箱发送
