@@ -2,11 +2,10 @@
 import requests
 # 网页列表
 webList = [
+    'https://www.hjtnt2.com/',
     'https://www.hjtnt.link/',
     'https://www.hjtnt.buzz/',
     'https://www.hjtnt.cc/',
-    'https://www.hjtnt.com/',
-    'https://koozk.com/'
 ]
 headers = {
   'authority': 'www.hjtnt.buzz',
