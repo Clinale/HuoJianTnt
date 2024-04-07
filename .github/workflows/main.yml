@@ -38,10 +38,9 @@ jobs:
         pip install -r requirements.txt
     - name: Run script
       env:
-        AGENTID1: ${{secrets.AGENTID1}}
-        AGENTID2: ${{secrets.AGENTID2}}
-        CORPID: ${{secrets.CORPID}}
-        CORPSECRET: ${{secrets.CORPSECRET}}
+        SENDER: ${{secrets.SENDER}}
+        SENDDER_PASSWORD: ${{secrets.SENDDER_PASSWORD}}
+        RECEIVER: ${{secrets.RECEIVER}}
         USERNAME: ${{secrets.USERNAME}}
         PASSWORD: ${{secrets.PASSWORD}}
       run: |
