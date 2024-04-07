@@ -39,7 +39,7 @@ jobs:
     - name: Run script
       env:
         SENDER: ${{secrets.SENDER}}
-        SENDDER_PASSWORD: ${{secrets.SENDDER_PASSWORD}}
+        SENDER_PASSWORD: ${{secrets.SENDER_PASSWORD}}
         RECEIVER: ${{secrets.RECEIVER}}
         USERNAME: ${{secrets.USERNAME}}
         PASSWORD: ${{secrets.PASSWORD}}
